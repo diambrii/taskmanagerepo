@@ -1,0 +1,33 @@
+
+[
+  {
+    "id": "TC01_add_one",
+    "add_count": 1,
+    "delete_count": 0,
+    "expected_remaining": 1
+  },
+  {
+    "id": "TC02_add_two_delete_one",
+    "add_count": 2,
+    "delete_count": 1,
+    "expected_remaining": 1
+  },
+  {
+    "id": "TC03_delete_all",
+    "add_count": 3,
+    "delete_count": 3,
+    "expected_remaining": 0
+  },
+  {
+    "id": "TC04_add_five_delete_two",
+    "add_count": 5,
+    "delete_count": 2,
+    "expected_remaining": 3
+  },
+  {
+    "id": "TC05_add_one_delete_one",
+    "add_count": 1,
+    "delete_count": 1,
+    "expected_remaining": 0
+  }
+]

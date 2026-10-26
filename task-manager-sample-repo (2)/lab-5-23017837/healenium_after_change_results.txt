@@ -1,0 +1,38 @@
+============================= test session starts =============================
+platform win32 -- Python 3.14.7, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\bridg\AppData\Local\Python\pythoncore-3.14-64\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\bridg\Documents\taskmanagerepo\task-manager-sample-repo (2)
+configfile: pytest.ini
+plugins: platformdirs-4.13.5
+collecting ... collected 5 items
+
+lab-5-23017837/test_add_remove_healenium.py::test_add_remove_elements[TC01_add_one] PASSED [ 20%]
+lab-5-23017837/test_add_remove_healenium.py::test_add_remove_elements[TC02_add_two_delete_one] FAILED [ 40%]
+lab-5-23017837/test_add_remove_healenium.py::test_add_remove_elements[TC03_delete_all] FAILED [ 60%]
+lab-5-23017837/test_add_remove_healenium.py::test_add_remove_elements[TC04_add_five_delete_two] FAILED [ 80%]
+lab-5-23017837/test_add_remove_healenium.py::test_add_remove_elements[TC05_add_one_delete_one] PASSED [100%]
+
+================================== FAILURES ===================================
+______________ test_add_remove_elements[TC02_add_two_delete_one] ______________
+lab-5-23017837\test_add_remove_healenium.py:49: in test_add_remove_elements
+    assert page.count_elements() == add_count
+E   assert 0 == 2
+E    +  where 0 = count_elements()
+E    +    where count_elements = <add_remove_page.AddRemovePage object at 0x0000017D9FC9C2D0>.count_elements
+__________________ test_add_remove_elements[TC03_delete_all] __________________
+lab-5-23017837\test_add_remove_healenium.py:49: in test_add_remove_elements
+    assert page.count_elements() == add_count
+E   assert 1 == 3
+E    +  where 1 = count_elements()
+E    +    where count_elements = <add_remove_page.AddRemovePage object at 0x0000017D9FC9D310>.count_elements
+_____________ test_add_remove_elements[TC04_add_five_delete_two] ______________
+lab-5-23017837\test_add_remove_healenium.py:49: in test_add_remove_elements
+    assert page.count_elements() == add_count
+E   assert 1 == 5
+E    +  where 1 = count_elements()
+E    +    where count_elements = <add_remove_page.AddRemovePage object at 0x0000017D9FCCCC30>.count_elements
+=========================== short test summary info ===========================
+FAILED lab-5-23017837/test_add_remove_healenium.py::test_add_remove_elements[TC02_add_two_delete_one]
+FAILED lab-5-23017837/test_add_remove_healenium.py::test_add_remove_elements[TC03_delete_all]
+FAILED lab-5-23017837/test_add_remove_healenium.py::test_add_remove_elements[TC04_add_five_delete_two]
+======================== 3 failed, 2 passed in 26.00s =========================

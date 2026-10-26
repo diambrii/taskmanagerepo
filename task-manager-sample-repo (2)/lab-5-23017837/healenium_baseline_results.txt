@@ -1,0 +1,15 @@
+============================= test session starts =============================
+platform win32 -- Python 3.14.7, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\bridg\AppData\Local\Python\pythoncore-3.14-64\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\bridg\Documents\taskmanagerepo\task-manager-sample-repo (2)
+configfile: pytest.ini
+plugins: platformdirs-4.13.5
+collecting ... collected 5 items
+
+lab-5-23017837/test_add_remove_healenium.py::test_add_remove_elements[TC01_add_one] PASSED [ 20%]
+lab-5-23017837/test_add_remove_healenium.py::test_add_remove_elements[TC02_add_two_delete_one] PASSED [ 40%]
+lab-5-23017837/test_add_remove_healenium.py::test_add_remove_elements[TC03_delete_all] PASSED [ 60%]
+lab-5-23017837/test_add_remove_healenium.py::test_add_remove_elements[TC04_add_five_delete_two] PASSED [ 80%]
+lab-5-23017837/test_add_remove_healenium.py::test_add_remove_elements[TC05_add_one_delete_one] PASSED [100%]
+
+============================= 5 passed in 20.12s ==============================

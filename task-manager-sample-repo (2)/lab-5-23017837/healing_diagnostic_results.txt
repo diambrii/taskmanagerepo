@@ -1,0 +1,22 @@
+HEALENIUM DIAGNOSTIC TEST
+Initial Delete buttons: 0
+
+Attempt 1
+Element selected: <button id="add-element-v2" class="add-button-v2" onclick="addElement();" style="border: 3px solid red;">Add Element</button>
+Delete buttons after click: 1
+
+Attempt 2
+Element selected: <button class="added-manually" onclick="deleteElement()" style="border: 3px solid red;">Delete</button>
+Delete buttons after click: 0
+
+Attempt 3
+Element selected: <button id="add-element-v2" class="add-button-v2" onclick="addElement();" style="border: 3px solid red;">Add Element</button>
+Delete buttons after click: 1
+
+Attempt 4
+Element selected: <button class="added-manually" onclick="deleteElement()" style="border: 3px solid red;">Delete</button>
+Delete buttons after click: 0
+
+Attempt 5
+Element selected: <button id="add-element-v2" class="add-button-v2" onclick="addElement();" style="border: 3px solid red;">Add Element</button>
+Delete buttons after click: 1

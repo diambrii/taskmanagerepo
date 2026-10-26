@@ -1,0 +1,13 @@
+diff --git a/views/add_remove_elements.erb b/views/add_remove_elements.erb
+index 39062c6..2c797c0 100644
+--- a/views/add_remove_elements.erb
++++ b/views/add_remove_elements.erb
+@@ -1,7 +1,7 @@
+ <h3>Add/Remove Elements</h3>
+ </br>
+ <div class="example">
+-  <button onclick="addElement()">Add Element</button>
++  <button id="add-element-v2" class="add-button-v2" onclick="addElement();">Add Element</button>
+   <hr />
+   <div id="elements">
+     <% if number_of_elements %>
