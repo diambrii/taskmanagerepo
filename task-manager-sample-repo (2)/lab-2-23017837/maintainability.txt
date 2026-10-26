@@ -1,0 +1,4 @@
+app\cli.py - A (72.27)
+app\storage.py - A (72.97)
+app\tasks.py - A (45.51)
+app\__init__.py - A (100.00)
