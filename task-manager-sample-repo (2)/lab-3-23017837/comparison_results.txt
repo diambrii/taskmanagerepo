@@ -1,0 +1,20 @@
+============================= test session starts =============================
+platform win32 -- Python 3.14.7, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\bridg\AppData\Local\Python\pythoncore-3.14-64\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\bridg\Documents\taskmanagerepo\task-manager-sample-repo (2)
+configfile: pytest.ini
+plugins: platformdirs-4.13.5
+collecting ... collected 10 items
+
+lab-3-23017837/test_discount_comparison.py::test_discount_comparison[TC01_zero_premium] PASSED [ 10%]
+lab-3-23017837/test_discount_comparison.py::test_discount_comparison[TC02_zero_regular] PASSED [ 20%]
+lab-3-23017837/test_discount_comparison.py::test_discount_comparison[TC03_min_positive_premium] PASSED [ 30%]
+lab-3-23017837/test_discount_comparison.py::test_discount_comparison[TC04_min_positive_regular] PASSED [ 40%]
+lab-3-23017837/test_discount_comparison.py::test_discount_comparison[TC05_ordinary_premium] PASSED [ 50%]
+lab-3-23017837/test_discount_comparison.py::test_discount_comparison[TC06_ordinary_regular] PASSED [ 60%]
+lab-3-23017837/test_discount_comparison.py::test_discount_comparison[TC07_decimal_premium] PASSED [ 70%]
+lab-3-23017837/test_discount_comparison.py::test_discount_comparison[TC08_decimal_regular] PASSED [ 80%]
+lab-3-23017837/test_discount_comparison.py::test_discount_comparison[TC09_higher_premium] PASSED [ 90%]
+lab-3-23017837/test_discount_comparison.py::test_discount_comparison[TC10_higher_regular] PASSED [100%]
+
+============================= 10 passed in 0.15s ==============================

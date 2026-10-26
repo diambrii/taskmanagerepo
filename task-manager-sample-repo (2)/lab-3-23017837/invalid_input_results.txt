@@ -1,0 +1,2 @@
+Negative price: -0.008
+Invalid premium status: 100
